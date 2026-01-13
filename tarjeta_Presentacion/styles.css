@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s;
+}
+
+
+.profile-card {
+    background-color: rgb(206, 163, 231);
+    width: 320px;
+    border-radius: 16px;
+    overflow: hidden;
+    color: whitesmoke;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.header {
+    background-color: #af80e4;
+    height: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: -45px;
+}
+
+
+.content {
+    padding: 60px 20px 20px;
+    text-align: center;
+}
+
+
+
+.content h3 {
+    margin: 6px 0;
+    color: #555;
+    font-weight: normal;
+}
+
+.content p {
+    font-size: 14px;
+    color: #666;
+}
+
+/*Botones*/
+.actions {
+    margin-top: 15px;
+}
+
+.actions button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #a57abe;
+    color: white;
+}
+
+/*Modo oscuro */
+.dark-mode {
+    background-color: #8e88b3;
+}
+
+.dark-mode .profile-card {
+    background-color: #c39be7;
+    color: white;
+}
+
+.dark-mode h3,
+.dark-mode p {
+    color: #8c1ee6;
+}
